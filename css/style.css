@@ -3,9 +3,9 @@
 }
 
 body {
+  background-color: #333;
 	width: 375px
 	padding-bottom:125px;
-	background: url(bus.jpg);
 }
 
 /* Create two equal columns that floats next to each other */
@@ -47,11 +47,9 @@ td {
 	white-space: nowrap;
 	margin: 5px;
 	padding: 5px;
-	text-align: left;
 }
 
 th {
-	text-align: left;
 	padding: 3px;
 	margin: 3px;
 }
@@ -76,14 +74,10 @@ nav {
   width: 420px;
 }
 
-.tr {
-	text-align: left!important;
-}
 
 
 .tbody {
 	padding: 8px;
-	text-align: left!important;
 }
 
 #footer {
