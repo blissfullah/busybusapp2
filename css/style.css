@@ -3,9 +3,9 @@
 }
 
 body {
-  background-color: #333;
 	width: 375px
 	padding-bottom:125px;
+	background: url(bus.jpg);
 }
 
 /* Create two equal columns that floats next to each other */
