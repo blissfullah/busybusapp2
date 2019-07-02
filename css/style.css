@@ -4,14 +4,14 @@
 
 body {
   background-color: #333;
-	width: 375px
+	width: 375px;
 	padding-bottom:125px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
   float: center;
-  width: 100%
+  width: 100%;
   padding: 13px;
 }
 
@@ -74,10 +74,19 @@ nav {
   width: 420px;
 }
 
-
+img {
+    max-width:100%;
+    height:auto;
+}
 
 .tbody {
 	padding: 8px;
+	display: block;
+	overflow: auto;
+}
+
+.tr {
+	display: block;
 }
 
 #footer {
