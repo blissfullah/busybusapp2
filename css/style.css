@@ -8,6 +8,9 @@
 	background-repeat: no-repeat;
 }
 
+body {
+	background-image: url(/images/map.jpg);
+}
 span.busstop {
 	text-align: center;
 }
@@ -28,7 +31,6 @@ img {
 }
 /* Create two equal columns that floats next to each other */
 .column {
-  float: center;
   width: 100%;
   padding: 13px;
 }
@@ -43,9 +45,6 @@ img {
 .container {
   margin: 0 auto;
   width:100%;
-}
-table.id {
-	padding: 1-px;
 }
 
 table {
@@ -62,7 +61,7 @@ td {
 	white-space: nowrap;
 	margin: 5px;
 	padding: 5px;
-	text-align: left:
+	text-align: center;
 }
 
 th {
@@ -81,7 +80,14 @@ h1 {
 	padding: 5px;
 	margin-left: 5px;
 	font-size: 1.0em;!important;
-	display: inline-block;
+}
+
+header {
+	padding: 0px;
+	margin: 0px;
+	height: 20px;
+	max-width: 100%;
+	height: auto;
 }
 
 nav {
@@ -92,14 +98,6 @@ nav {
  border:1px solid #ccc;
  font-family: "San Francisco Display Bold";
  text-align: center;
- display: inline-block;
-}
-
-header {
-	padding: 0px;
-	margin: 0px;
-	height: 20px;
-	max-width: 100%;
 }
 
 tbody {
