@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body  background="images/map.jpg" alt="busstop">
+<body background="images/map.jpg" alt="busstop">
   <header>
     <img src="images/statusbar.png" alt="statusbar">
   </header>
@@ -18,134 +18,74 @@
     <span class="back"><img src="images/back.png" alt="backicon"></span>
     <span class="busstop">Washington & State</span>
   </nav>
+
   <main>
     <footer>
-      <div class="row">
-        <div class="column" style="background-color:#C6C6C6;">
-          <h1>Eastbound</h1>
-          <div class="table" style="background-color:#C6C6C6;">
-            <table>
-              <thead>
-                <tr>
-                  <th>Line</th>
-                  <th>Destination</th>
-                  <th>Frequency</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>60</td>
-                  <td>Randolph/Harbor Dr</td>
-                  <td>Every 20 min.</td>
-                </tr>
-                <tr>
-                  <td>124</td>
-                  <td>Navy Pier</td>
-                  <td>Every 10 min.</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
+        <table id="bus_stop_table">
+          <tbody>
+            <tr>
+              <th scope="col">Bus</th>
+              <th scope="col">Direction</th>
+              <th scope="col">ETA</th>
+              <th scope="col"> </th>
+            </tr>
+            <tr>
+              <td>60</td>
+              <td>Randolph/Harbor Dr</td>
+              <td>20 min.</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>Navy Pier</td>
+              <td> 10 min.</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>151</td>
+              <td>Devon/Clark</td>
+              <td> 16 min.</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>J14</td>
+              <td>103rd/Stony Island</td>
+              <td> 15 min.</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>124</td>
+              <td>Navy Pier</td>
+              <td> 10 min.</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>6x</td>
+              <td>Jackson Park Express</td>
+              <td>N/A</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Cottage Grove</td>
+              <td><img src="images/alarm.png" alt="alarm"> 12:10am</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>Madison</td>
+              <td><img src="images/alarm.png" alt="alarm"> 12:10am</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+            <tr>
+              <td>157</td>
+              <td>Streeterville/Taylor</td>
+              <td><img src="images/alarm.png" alt="alarm"> 6:00am</td>
+              <td><img src="images/morethan.png" alt="morethan"></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
-      <div class="column" style="background-color:#AFAFAF;">
-        <h1>Northbound</h1>
-        <div class="table" style="background-color:#AFAFAF;">
-          <table>
-            <thead>
-              <tr>
-                <th>Line</th>
-                <th>Destination</th>
-                <th>Frequency</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>151</td>
-                <td>Devon/Clark</td>
-                <td>Every 16 min.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="column" style="background-color:#989898;">
-        <h1>Southbound</h1>
-        <div class="table" style="background-color:#989898">
-          <table>
-            <thead>
-              <tr>
-                <th>Line</th>
-                <th>Destination</th>
-                <th>Frequency</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>J14</td>
-                <td>103rd/Stony Island</td>
-                <td>Every 15 min.</td>
-              </tr>
-              <tr>
-                <td>124</td>
-                <td>Navy Pier</td>
-                <td>Every 10 min.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="column" style="background-color:#AFAFAF;">
-        <h1>Reroute</h1>
-        <div class="table" style="background-color:#AFAFAF">
-          <table>
-            <thead>
-              <tr>
-                <th>Line</th>
-                <th>Destination</th>
-                <th>Frequency</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>6x</td>
-                <td>Jackson Park Express</td>
-                <td>N/A</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div class="column" style="background-color:#C6C6C6;">
-        <h1>Out Of Service</h1>
-        <div class="table" style="background-color:#C6C6C6;">
-          <table>
-            <thead>
-              <tr>
-                <th>Line</th>
-                <th>Destination</th>
-                <th>Frequency</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>4</td>
-                <td>Cottage Grove</td>
-                <td>Resumes 12:10am</td>
-              </tr>
-              <tr>
-                <td>20</td>
-                <td>Madison</td>
-                <td>Resumes 12:10am</td>
-              </tr>
-              <tr>
-                <td>157</td>
-                <td>Streeterville/Taylor</td>
-                <td>Resumes 6:00am</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </footer>
+    </footer>
   </main>
 </body>
