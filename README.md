@@ -9,5 +9,5 @@ This project included user research, UX Design, Visual Design and Front End HTML
 | ------------- | ------------- | ------------ |
 | [index.html](https://github.com/chasingwilddesigns/busybusapp2/blob/master/index.html)    | Bus schedule content                         | Visual |
 | [reset.css](https://github.com/chasingwilddesigns/busybusapp2/blob/master/css/reset.css)  | Reset HTML styling to baseline               | Visual |
-| [styles.css](https://github.com/chasingwilddesigns/busybusapp2/blob/master/css/style.css| Styling for the dashboard of the application | Visual |
+| [styles.css](https://github.com/chasingwilddesigns/busybusapp2/blob/master/css/style.css)| Styling for the dashboard of the application | Visual |
 | [Images](https://github.com/chasingwilddesigns/busybusapp2/tree/master/images)            | Images used for the application              | Visual |
